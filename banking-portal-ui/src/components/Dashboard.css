@@ -1,0 +1,91 @@
+.account-card {
+    background: linear-gradient(135deg, #8a2be2, #1e90ff); /* Adjust gradient colors */
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    height: 250px;
+  }
+  
+.account-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  flex: 1; /* Allow card content to grow */
+}
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.details {
+  font-size: 16px;
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.dashboard-item {
+  flex: 1;
+  margin: 0 10px; /* Adjust as needed */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.ant-table-thead > tr > th.custom-header {
+  background: #f0f8ff; /* Light blue background */
+  color: #000; /* Black text color */
+}
+
+.ant-table-filter-trigger {
+  background: #f0f8ff; /* Light blue background */
+  color: #000; /* Black text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 4px;
+}
+
+.ant-table-filter-trigger:hover {
+  background: #e0f0ff; /* Slightly darker blue on hover */
+  color: #000;
+}
+
+
+.edit-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .user-align{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }

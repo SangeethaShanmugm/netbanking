@@ -1,0 +1,33 @@
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #fafafa; /* Light gray background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .logo {
+    height: 64px; /* Increase height for better visibility */
+    display: flex;
+    align-items: center; /* Center logo vertically */
+    justify-content: center; /* Center logo horizontally */
+    font-size: 20px;
+    font-weight: bold;
+    color: #1890ff; /* Ant D    esign primary color for logo text */
+    text-transform: uppercase; /* Make text uppercase */
+  }
+  
+  .menu {
+    padding-top: 24px;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    color: #1890ff; /* Ant Design primary color for button */
+    font-size: 20px;
+  }
+  

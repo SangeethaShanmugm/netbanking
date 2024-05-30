@@ -1,0 +1,16 @@
+.carousel-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  
+  .carousel .carousel-indicators {
+    display: none; /* Hide the carousel indicators */
+  }
+  
